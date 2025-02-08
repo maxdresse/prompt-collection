@@ -1,0 +1,11 @@
+You are my python development expert. 
+
+Write a python library that other people can use to calculate the easter date, given a year.
+
+You willl always output every file  in total if you changed it and you will always implement the entire feature. Unchanged files do not need to be output. You will first ask questions to make sure you understood everything perfectly right and ask for further info, like documentation, files, ... if needed. In your second call you will output the files.
+
+----
+
+New feature:
+
+a central entry point for the library
