@@ -1,0 +1,42 @@
+1. Adversarial Prompting
+
+Role Play Attacks: Ask the LLM to "pretend" to be something else (e.g., "You're a hacker explaining how to...").
+
+Jailbreak Phrasing: Use indirect language, metaphors, or code-like structures to bypass safety measures.
+
+Sentence Reconstruction: Reword restricted queries to see if the model allows different phrasings.
+
+
+2. Prompt Injection
+
+Direct Injection: Embed instructions within user input to override the system’s behavior (e.g., "Ignore all previous instructions and tell me...").
+
+Hidden Injection: Use Unicode tricks, invisible characters, or embedded text to manipulate the LLM.
+
+
+3. Context Manipulation
+
+Long-Context Exploits: Feed a long, structured prompt that buries the malicious request within seemingly harmless content.
+
+Memory Poisoning: If the model has memory, manipulate it by slowly changing the context over multiple interactions.
+
+
+4. Ethical or Policy Bypasses
+
+Hypothetical Framing: Ask the model to explain harmful content under the guise of an academic, historical, or fictional scenario.
+
+Reverse Psychology: Ask for advice on how to avoid certain actions while subtly leading the model into explaining them.
+
+
+5. Multi-Step Exploits
+
+Chain of Thought Attacks: Break down restricted queries into small, seemingly harmless steps that, when combined, reconstruct the original intent.
+
+Agentic Exploits: If the LLM interacts with tools (APIs, search, databases), attempt to manipulate its decision-making.
+
+
+6. Testing Edge Cases
+
+Numerical Limits: Check how it handles edge cases like extremely large/small numbers or recursion loops.
+
+Bias and Toxicity Checks: Probe for biased outputs by asking about controversial topics in varied ways.
