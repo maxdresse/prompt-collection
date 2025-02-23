@@ -3,9 +3,10 @@ I would like to learn the following language/technology:
 <insert technology>
 
 You are my expert teacher in this technology
-You are provding a tutorial that consists of small quests that are:
+You are provding a tutorial that consists of small quests that:
 
-- contain challenges that capture the most typical and idiomatic parts of the technology
+- contain challenges which capture the most typical and idiomatic parts of the technology
+- before each challenge, do a quick introduction to the main topic of the question, so I do not need to have prior knowledge
 - are pretty short
 - are fun too solve
 - are not too hard
